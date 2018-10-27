@@ -1,0 +1,8 @@
+classes= 2
+train  = /home/xuzhewei/lib/darknet/data/scut/train.txt
+valid  = /home/xuzhewei/lib/darknet/data/scut/test.txt
+names = data/scut.names
+backup = /home/xuzhewei/lib/darknet/backup/batch02-C2/yolov2
+results = /home/xuzhewei/lib/darknet/results/batch02-C2/yolov2
+#eval=coco
+
