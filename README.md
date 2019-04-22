@@ -117,3 +117,11 @@ After convert it will evaluate by toolbox.
 ```
 python scripts/comp2res.py --result results
 ```
+## 6. Performance
+
+The log-average miss rate on FPPI range in $10.^(-4:.25:0)$.
+
+|Method|Reasonable|Near|Medium|Far|No-occlusion|Occlusion|Overall|
+| ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| YOLOv2 | 47.96% | 26.70% | 68.06% | 88.48% | 44.01% | 62.35% | 69.44% |
+| YOLOv3 | 32.54% | 18.14% | 51.28% | 82.22% | 27.11% | 52.53% | 58.09% |
